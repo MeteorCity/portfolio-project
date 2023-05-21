@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(2, 2, 10);
+    height: 2000px;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(14, 14, 14);
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+.name-text {
+    color: rgb(90, 197, 255);
+    margin-left: 100px;
+    width: 300px;
+    min-width: 300px;
+    margin-right: 15px;
+}
+
+.right-text-section {
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    min-width: 400px;
+}
+
+.navigate-text {
+    color: white;
+    margin-right: 60px;
+    font-size: 16.5px;
+}
+
+.middle-section {
+    position: relative;
+    height: 600px;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.mission-statement {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    top: 240px;
+    right: 150px;
+    width: 500px;
+    font-family: Roboto Mono;
+}
+
+.reality-text {
+    display: inline-block;
+    margin-left: -30px;
+    font-weight: bold;
+}
+
+.r-letter {
+    margin-left: 0;
+    color: rgb(131, 170, 250);
+}
+
+.e-letter {
+    color: rgb(110, 162, 252)
+}
+
+.a-letter {
+    color: rgb(89, 150, 255)
+}
+
+.l-letter {
+    color: rgb(68, 137, 255)
+}
+
+.i-letter {
+    color: rgb(47, 123, 255)
+}
+
+.t-letter {
+    color: rgb(26, 110, 255)
+}
+
+.y-letter {
+    color: rgb(5, 96, 253);
+}
+
+.my-picture {
+    position: absolute;
+    top: 0px;
+    left: 125px;
+    height: 700px;
+}
